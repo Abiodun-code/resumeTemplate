@@ -1,0 +1,51 @@
+.Content {
+  width: 63%;
+  height: auto;
+}
+
+.Content .Content_wrap {
+  width: 100%;
+  height: auto;
+}
+
+/* First Media Query */
+@media screen and (min-width: 769px) and (max-width: 1022px) {
+  .Content {
+    width: 100%;
+    height: auto;
+  }
+
+  .Content .Content_wrap {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+/* Second Media Query */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .Content {
+    width: 100%;
+    height: auto;
+  }
+
+  .Content .Content_wrap {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+/* Third Media Query */
+@media screen and (min-width: 223px) and (max-width: 600px) {
+  .Content {
+    width: 100%;
+    height: auto;
+  }
+
+  .Content .Content_wrap {
+    width: 100%;
+    height: auto;
+  }
+
+}

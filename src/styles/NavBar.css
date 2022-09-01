@@ -1,0 +1,137 @@
+.NavBar {
+  width: 100%;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.NavBar .NavBar_wrap {
+  width: 100%;
+  height: 10vh;
+  padding: 1rem;
+  border-bottom-left-radius: .7rem;
+  border-bottom-right-radius: .7rem;
+  background-color: var(--white-color);
+  box-shadow: 0rem .1rem .1rem #9fa6b3;
+}
+
+.NavBar_wrap .NavBar_ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.NavBar_ul .NavBar_li {
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--dark-color);
+}
+
+.NavBar_li:active {
+  color: var(--blue-color);
+}
+
+/* First Media Query */
+@media screen and (min-width: 769px) and (max-width: 1022px) {
+  .NavBar {
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-top: 2rem;
+  }
+
+  .NavBar .NavBar_wrap {
+    width: 100%;
+    height: auto;
+    padding: 1.3rem;
+  }
+
+  .NavBar_wrap .NavBar_ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .NavBar_ul .NavBar_li {
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--dark-color);
+  }
+
+  .NavBar_li:active {
+    color: var(--blue-color);
+  }
+}
+
+/* Second Media Query */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .NavBar {
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-top: 2rem;
+  }
+
+  .NavBar .NavBar_wrap {
+    width: 100%;
+    height: auto;
+    padding: 1.3rem;
+  }
+
+  .NavBar_wrap .NavBar_ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .NavBar_ul .NavBar_li {
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--dark-color);
+    margin: 0.75rem;
+  }
+
+  .NavBar_li:active {
+    color: var(--blue-color);
+  }
+}
+
+/* Third Media Query */
+@media screen and (min-width: 223px) and (max-width: 600px) {
+  .NavBar {
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-top: 2rem;
+  }
+
+  .NavBar .NavBar_wrap {
+    width: 100%;
+    height: auto;
+    padding: 1.3rem;
+  }
+
+  .NavBar_wrap .NavBar_ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .NavBar_ul .NavBar_li {
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--dark-color);
+    margin: 0.75rem;
+  }
+
+  .NavBar_li:active {
+    color: var(--blue-color);
+  }
+}

@@ -1,0 +1,21 @@
+.Footer {
+  width: 100%;
+  height: auto;
+  background: var(--white-color);
+  margin-top: 1rem;
+}
+
+.Footer .Footer_wrap{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  background: var(--white-color);
+}
+
+.Footer_wrap h1{
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--blue-color);
+  text-align: center;
+  padding-top: .2rem;
+}

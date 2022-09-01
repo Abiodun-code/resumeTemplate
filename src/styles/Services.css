@@ -1,0 +1,265 @@
+.Services {
+  width: 100%;
+  margin-top: 1.5rem;
+  height: auto;
+}
+
+.Services .Services_wrap {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Services_wrap .Service_first {
+  width: 45%;
+  height: auto;
+}
+
+.Service_first .Serv_first_card {
+  width: 100%;
+  height: auto;
+  background: var(--white-color);
+  box-shadow: 0rem .1rem .1rem #9fa6b3;
+  border-radius: .5rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.Service_first .Serv_first_card:hover {
+  box-shadow: 0rem .1rem .1rem #55585c;
+}
+
+.Serv_first_card .Serv_first_svg {
+  width: 25%;
+  height: 3.5rem;
+  background-color: var(--background-color);
+  text-align: center;
+  font-size: 1.6rem;
+  border-radius: .4rem;
+  padding-top: .4rem;
+  color: var(--blue-color);
+}
+
+.Serv_first_card .Serv_first_svg:hover {
+  background: var(--blue-color);
+  color: var(--background-color);
+}
+
+.Serv_first_svg svg {
+  width: 100%;
+  height: 2.5rem;
+}
+
+.Serv_first_card .Serv_first_text {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.Serv_first_text h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.Serv_first_text p {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.Services_wrap .Service_second {
+  width: 45%;
+  height: auto;
+}
+
+.Service_second .Serv_second_card {
+  width: 100%;
+  height: auto;
+  background: var(--white-color);
+  box-shadow: 0rem .1rem .1rem #9fa6b3;
+  border-radius: .5rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.Service_second .Serv_second_card:hover {
+  box-shadow: 0rem .1rem .1rem #55585c;
+}
+
+.Serv_second_card .Serv_second_svg {
+  width: 25%;
+  height: 3.5rem;
+  background-color: var(--background-color);
+  text-align: center;
+  font-size: 1.6rem;
+  border-radius: .4rem;
+  padding-top: .4rem;
+  color: var(--blue-color);
+}
+
+.Serv_second_card .Serv_second_svg:hover {
+  background: var(--blue-color);
+  color: var(--background-color);
+}
+
+.Serv_second_svg svg {
+  width: 100%;
+  height: 2.5rem;
+}
+
+.Serv_second_card .Serv_second_text {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.Serv_second_text h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.Serv_second_text p {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* First Media Query */
+@media screen and (min-width: 769px) and (max-width: 1022px) {
+  .Services {
+    width: 100%;
+    margin-top: 1.5rem;
+    height: auto;
+    margin-bottom: -2rem;
+  }
+
+  .Services .Services_wrap {
+    display: block;
+    justify-content: left;
+  }
+
+  .Services_wrap .Service_first {
+    width: 100%;
+    height: auto;
+  }
+
+  .Serv_first_card .Serv_first_svg {
+    width: 18%;
+    height: 5rem;
+    background-color: var(--background-color);
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: .4rem;
+    padding-top: 1.3rem;
+    color: var(--blue-color);
+  }
+
+  .Services_wrap .Service_second {
+    width: 100%;
+    height: auto;
+  }
+
+  .Serv_second_card .Serv_second_svg {
+    width: 18%;
+    height: 5rem;
+    background-color: var(--background-color);
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: .4rem;
+    padding-top: 1.3rem;
+    color: var(--blue-color);
+  }
+}
+
+/* Second Media Query */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .Services {
+    width: 100%;
+    margin-top: 1.5rem;
+    height: auto;
+    margin-bottom: -2rem;
+  }
+
+  .Services .Services_wrap {
+    display: block;
+    justify-content: left;
+  }
+
+  .Services_wrap .Service_first {
+    width: 100%;
+    height: auto;
+  }
+
+  .Serv_first_card .Serv_first_svg {
+    width: 18%;
+    height: 5rem;
+    background-color: var(--background-color);
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: .4rem;
+    padding-top: 1.3rem;
+    color: var(--blue-color);
+  }
+
+  .Services_wrap .Service_second {
+    width: 100%;
+    height: auto;
+  }
+
+  .Serv_second_card .Serv_second_svg {
+    width: 18%;
+    height: 5rem;
+    background-color: var(--background-color);
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: .4rem;
+    padding-top: 1.3rem;
+    color: var(--blue-color);
+  }
+}
+
+/* Third Media Query */
+@media screen and (min-width: 223px) and (max-width: 600px) {
+  .Services {
+    width: 100%;
+    margin-top: 1.5rem;
+    height: auto;
+    margin-bottom: -2rem;
+  }
+
+  .Services .Services_wrap {
+    display: block;
+    justify-content: left;
+  }
+
+  .Services_wrap .Service_first {
+    width: 100%;
+    height: auto;
+  }
+
+  .Serv_first_card .Serv_first_svg {
+    width: auto;
+    height: 5rem;
+    background-color: var(--background-color);
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: .4rem;
+    padding-top: 1.3rem;
+    color: var(--blue-color);
+  }
+
+  .Services_wrap .Service_second {
+    width: 100%;
+    height: auto;
+  }
+
+  .Serv_second_card .Serv_second_svg {
+    width: auto;
+    height: 5rem;
+    background-color: var(--background-color);
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: .4rem;
+    padding-top: 1.3rem;
+    color: var(--blue-color);
+  }
+}

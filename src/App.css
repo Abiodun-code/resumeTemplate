@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Anek Telugu', sans-serif;
+}
+
+:root {
+  --pink-color: #ff545d;
+  --dark-color: #3a3b59;
+  --white-color: #fff;
+  --background-color: #f3f3f3;
+  --footer-color: #24242c;
+  --blue-color: rgb(114, 38, 247);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: .4rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--blue-color);
+}
