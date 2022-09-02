@@ -3,7 +3,7 @@ import '../styles/Contact.css'
 
 const Contact = () => {
   return (
-    <div className='Contact'>
+    <div className='Contact' data-aos="zoom-in" data-aos-duration="2000">
       <div className="Contact_wrap">
         <h1>Get in Touch</h1>
         <form action="mailto: olaabiodun157@gmail.com">

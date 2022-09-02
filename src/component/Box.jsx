@@ -58,11 +58,17 @@ const Box = () => {
                 typewriter
                   .typeString("About Me")
                   .pauseFor(1000)
-                  .start();
+                  .deleteAll()
+                  .typeString("About Me")
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString("About Me")
+                  .pauseFor(1000)
+                  .start()
               }}
             />
           </h1>
-          <p data-aos="zoom-in" data-aos-duration="2000">
+          <p data-aos="fade-right" data-aos-duration="2000">
             I'm a Junior Software and Mobile Developer with Experience in Information Technology with Experience in Building real world Project and Solving world Problem in I.T world, am looking for a challenging opportunity that will enable me to use my skills.
           </p>
         </div>

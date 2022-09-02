@@ -4,7 +4,7 @@
   background: var(--white-color);
   margin-top: 1.5rem;
   border-radius: .3rem;
-  margin-bottom: 1rem;
+
 }
 
 .Contact .Contact_wrap {
@@ -141,7 +141,7 @@ form .form_button {
     background: var(--white-color);
     margin-top: 1.5rem;
     border-radius: .3rem;
-    margin-bottom: -2rem;
+
   }
 
   form .form_header {

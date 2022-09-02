@@ -18,17 +18,19 @@
   --blue-color: rgb(114, 38, 247);
 }
 
-/* width */
+.App{
+  width: 100%;
+  height: auto;
+}
+
 ::-webkit-scrollbar {
   width: .4rem;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: var(--background-color);
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--blue-color);
 }

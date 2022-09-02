@@ -1,21 +1,54 @@
 .Footer {
   width: 100%;
   height: auto;
-  background: var(--white-color);
-  margin-top: 1rem;
+  background: var(--background-color);
+  padding-top: 1.5rem;
 }
 
-.Footer .Footer_wrap{
-  width: 80%;
+.Footer .Footer_wrap {
+  width: 100%;
   height: auto;
   margin: auto;
   background: var(--white-color);
 }
 
-.Footer_wrap h1{
+.Footer_wrap h1 {
   font-size: 2rem;
   font-weight: 400;
   color: var(--blue-color);
   text-align: center;
-  padding-top: .2rem;
+  padding-top: 1rem;
+}
+
+/* First Media Query */
+@media screen and (min-width: 769px) and (max-width: 1022px) {
+  .Footer_wrap h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--blue-color);
+    text-align: center;
+    padding-top: 1rem;
+  }
+}
+
+/* Second Media Query */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .Footer_wrap h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--blue-color);
+    text-align: center;
+    padding-top: 1rem;
+  }
+}
+
+/* Third Media Query */
+@media screen and (min-width: 223px) and (max-width: 600px) {
+  .Footer_wrap h1 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--blue-color);
+    text-align: center;
+    padding-top: 1rem;
+  }
 }

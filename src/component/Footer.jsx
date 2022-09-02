@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='Footer'>
       <div className="Footer_wrap">
-        <h1>Designed and Developed by me</h1>
+        <h1>Designed and Developed by Me</h1>
       </div>
     </div>
   )

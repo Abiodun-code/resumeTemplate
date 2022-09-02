@@ -1,8 +1,7 @@
 .About {
   width: 100%;
   height: auto;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
+  margin-top: 1.7rem;
 }
 
 .About .About_wrap {
@@ -23,7 +22,7 @@
 }
 
 .About_wrap h2 {
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
   font-size: 2rem;
   font-weight: 500;
 }
@@ -33,7 +32,7 @@
   display: flex;
   justify-content: space-between;
   height: auto;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .Skill_shift .Skill_first {
@@ -176,8 +175,7 @@
   .About {
     width: 100%;
     height: auto;
-    background-color: red;
-    margin-bottom: 2rem;
+    margin-bottom: -1rem;
   }
 
   .About .About_wrap {
@@ -185,11 +183,18 @@
     height: auto;
   }
 
+  .About_wrap h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+
   .About_wrap .Skill_shift {
     width: 100%;
     display: block;
     height: auto;
-    margin-top: 2rem;
+    margin-top: .7rem;
   }
 
   .Skill_shift .Skill_first {
@@ -197,9 +202,24 @@
     height: auto;
   }
 
+  .Skill_first .first_content {
+    width: 100%;
+    margin-bottom: 1.2rem;
+  }
+
   .Skill_shift .Skill_second {
     width: 100%;
     height: auto;
+  }
+
+  .Skill_second .second_content {
+    width: 100%;
+    margin-bottom: 1.2rem;
+  }
+
+  .Skill_second .second_content {
+    width: 100%;
+    margin-bottom: .9rem;
   }
 }
 
@@ -208,6 +228,7 @@
   .About {
     width: 100%;
     height: auto;
+    margin-bottom: -1rem;
   }
 
   .About .About_wrap {
@@ -215,11 +236,18 @@
     height: auto;
   }
 
+  .About_wrap h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+
   .About_wrap .Skill_shift {
     width: 100%;
     display: block;
     height: auto;
-    margin-top: 2rem;
+    margin-top: .7rem;
   }
 
   .Skill_shift .Skill_first {
@@ -227,8 +255,23 @@
     height: auto;
   }
 
+  .Skill_first .first_content {
+    width: 100%;
+    margin-bottom: 1.2rem;
+  }
+
   .Skill_shift .Skill_second {
     width: 100%;
     height: auto;
+  }
+
+  .Skill_second .second_content {
+    width: 100%;
+    margin-bottom: 1.2rem;
+  }
+
+  .Skill_second .second_content {
+    width: 100%;
+    margin-bottom: .9rem;
   }
 }

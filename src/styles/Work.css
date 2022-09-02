@@ -1,0 +1,16 @@
+.Work {
+  width: 100%;
+  height: auto;
+  margin-top: 1.7rem;
+}
+
+.Work .Work_wrap{
+  width: 100%;
+  height: auto;
+}
+
+.Work_wrap .Work_shift{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
