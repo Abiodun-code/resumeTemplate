@@ -12,7 +12,7 @@ const Contact = () => {
             <input className='form_email' type="email" placeholder='Your Email' />
           </div>
           <input className='form_sub' type="text" placeholder='Subject' />
-          <textarea autoFocus placeholder='Your Message' className='form_text'></textarea>
+          <textarea placeholder='Your Message' className='form_text'></textarea>
           <button className='form_button'>Send Message</button>
         </form>
       </div>

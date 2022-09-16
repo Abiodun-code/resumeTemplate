@@ -52,7 +52,7 @@ const Box = () => {
         </div>
 
         <div className="Box_text_second">
-          <h1 data-aos="fade-right" data-aos-duration="1000">
+          <h1 data-aos="fade-up" data-aos-duration="1000">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
@@ -68,7 +68,7 @@ const Box = () => {
               }}
             />
           </h1>
-          <p data-aos="fade-right" data-aos-duration="2000">
+          <p data-aos="fade-down" data-aos-duration="2000">
             I'm a Junior Software and Mobile Developer with Experience in Information Technology with Experience in Building real world Project and Solving world Problem in I.T world, am looking for a challenging opportunity that will enable me to use my skills.
           </p>
         </div>

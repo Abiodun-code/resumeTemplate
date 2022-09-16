@@ -62,3 +62,18 @@
     display: block;
   }
 }
+
+/* Forth Media Query */
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
+  .Divide .Divide_wrap {
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+
+  .Divide_wrap .Divide_shift {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
