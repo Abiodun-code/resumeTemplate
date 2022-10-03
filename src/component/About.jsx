@@ -38,7 +38,7 @@ const About = () => {
             </div>
             <div className="first_content">
               <div className="content_text">
-                <h1>Bootstrap</h1>
+                <h1>TypeScript</h1>
                 <p>99%</p>
               </div>
               <div className="content_line">
