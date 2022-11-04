@@ -68,9 +68,9 @@
     color: var(--dark-color);
   }
 
-  .NavBar_li:active {
+  /* .NavBar_li:active {
     color: var(--blue-color);
-  }
+  } */
 }
 
 /* Second Media Query */
@@ -102,10 +102,10 @@
     color: var(--dark-color);
     margin: 0.75rem;
   }
-
+/* 
   .NavBar_li:active {
     color: var(--blue-color);
-  }
+  } */
 }
 
 /* Third Media Query */
@@ -138,7 +138,7 @@
     margin: 0.75rem;
   }
 
-  .NavBar_li:active {
+  /* .NavBar_li:active {
     color: var(--blue-color);
-  }
+  } */
 }

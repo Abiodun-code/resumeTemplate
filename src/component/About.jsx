@@ -11,8 +11,8 @@ const About = () => {
           commercial Web-based Applications and testing skills to ensure your software
           deployments roll out without a hitch.
         </p>
-        <h2 data-aos="fade-right" data-aos-duration="2000">Skills</h2>
-        <div className="Skill_shift" data-aos="fade-left" data-aos-duration="2000">
+        <h2 data-aos="fade-up" data-aos-duration="2000">Skills</h2>
+        <div className="Skill_shift" data-aos="fade-up" data-aos-duration="2000">
           <div className="Skill_first">
             <div className="first_content">
               <div className="content_text">

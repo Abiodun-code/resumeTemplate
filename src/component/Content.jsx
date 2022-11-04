@@ -5,7 +5,7 @@ import {Routes, Route} from 'react-router-dom'
 import About from './About'
 import Services from './Services'
 import Contact from './Contact'
-import Work from './Work'
+// import Work from './Work'
 
 const Content = () => {
   return (
@@ -16,7 +16,7 @@ const Content = () => {
           <Route path='/' element={<About/>} />
           <Route path='/service' element={<Services/>} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/works' element={<Work />} />
+          {/* <Route path='/works' element={<Work />} /> */}
         </Routes>
       </div>
     </div>
