@@ -1,4 +1,3 @@
-
 # Resume
 A Simple User Interface Resume design for developer 
 and it can serve as a template for a developer that's aspire in creating portfolio and resume, Free Template and User Friendly
